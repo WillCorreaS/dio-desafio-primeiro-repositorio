@@ -1,0 +1,27 @@
+Um guia de Comandos Úteis do Git.
+
+
+Ajuda Geral:  git help
+
+Configurar usuário: git config --global user.name "João e Maria"
+
+Configurar email: git config --global user.email JoaoeMaria@dominio.com.br
+
+Criar novo repositório: git init
+
+Adicionar um diretório em específico: git add nome_do_diretorio
+
+Adicionar todos os arquivos/diretórios: git add .
+
+Comitar um arquivo: git commit nome_do_arquivo.txt
+
+Comitar informando mensagem: git commit nome_do_arquivo.txt -m "sua mensagem de commit"
+
+Remover arquivo: git rm nome_do_arquivo.txt
+
+Remover diretório: git rm -r nome_do_diretorio
+
+Enviar arquivos/diretórios para o repositório: git push -u origin main (master)
+
+Clonar um repositório: git clone endereço_do_repositorio
+
